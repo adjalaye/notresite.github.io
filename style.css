@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.index {
+  width: 100%;
+  height: 100vh;
+  background-image:  url(PHOTO-2023-03-07-22-22-56.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav{
+   width: 100%;
+   height: 18vh;
+    background: rgba(0,0,0,0.2);
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   
+}
+nav .logo{
+  width: 25%;
+  text-align: center;
+ 
+}
+nav .menu{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+nav .menu a{
+  width: 80%;
+  text-decoration: none;
+  color: white;
+  height: 10%;
+}
+ a{
+  text-decoration: none;
+  transition: 0.6 ease;
+  font-weight: 10;
+  color: #fff;
+  border: 1px white; 
+  margin: 5px;
+}
+a:hover{
+  color: #eee;
+  background:blanchedalmond;
+}
+
+main{
+  width: 100%;
+  height: 90vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+section  h3{
+  font-size: 35px;
+    font-weight: 200;
+  letter-spacing: 3px;
+  text-shadow: 1px 1px 2px;
+}
+section{
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+}
+section p{
+  font-size: 25px;
+  color: #eee;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+}
+section a{
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration:none ;
+  letter-spacing: 1px;
+}
+footer{
+  display: flex;
+  background: goldenrod;
+}
+.goree{
+  background-color: antiquewhite;
+}
+.gore{
+  width: 25%;
+  float: left;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  height: 20vh;
+}
+.gore2{
+  float: left;
+  width: auto;
+}
+.D1{
+  color: #fff;
+  background: antiquewhite;
+  padding: 10px;
+}
+.ile2{
+  margin-top: 50px;
+  margin-right: 200px;
+  font-weight: bold;
+}
+.ile{
+  margin-left: 700px;
+  margin-top: 10px;
+}
+h2{
+  text-align: center;
+  margin-top: 100px;
+}
+.img1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.madeleine{
+  background-color: antiquewhite ;
+}
+.ilemad{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 500px;
+  
+}
+.mad{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
